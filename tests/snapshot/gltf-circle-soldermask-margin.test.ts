@@ -143,7 +143,6 @@ test("gltf circle soldermask margin test", async () => {
     renderGLTFToPNGBufferFromGLBBuffer(
       glbResult as ArrayBuffer,
       cameraPosition,
-
     ),
   ).toMatchPngSnapshot(import.meta.path)
 })
